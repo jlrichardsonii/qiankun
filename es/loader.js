@@ -87,7 +87,6 @@ function createElement(appContent, strictStyleIsolation, scopedCSS, appName) {
     }
   }
 
-  /*
   if (scopedCSS) {
     var attr = appElement.getAttribute(css.QiankunCSSRewriteAttr);
 
@@ -101,7 +100,6 @@ function createElement(appContent, strictStyleIsolation, scopedCSS, appName) {
       css.process(appElement, stylesheetElement, appName);
     });
   }
-  */
 
   return appElement;
 }
